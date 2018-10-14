@@ -1,9 +1,11 @@
-$font-stack: Helvetica, Arial, sans-serif;
-$primary-color: red;
-$secondary-color: orange;
-$tertiary-color: yellow;
+@import "_variables";
+@import "_navbar";
 
-body{
+
+
+/* GLOBAL */
+
+body {
     font-family: $font-stack;
     background-color: $secondary-color;
 }
@@ -11,3 +13,5 @@ body{
 h1 {
     color: $primary-color;
 }
+
+ 
